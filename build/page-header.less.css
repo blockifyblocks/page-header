@@ -1,0 +1,159 @@
+.block-page-header {
+  /* Social Icons */
+}
+.block-page-header > nav {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  height: 60px;
+  line-height: 60px;
+  z-index: 100;
+}
+.block-page-header.fixed > nav {
+  position: fixed;
+}
+.block-page-header.fixed .block-page-header-spacing {
+  height: 60px;
+}
+@media (max-width: 767px) {
+  .block-page-header.fixed .block-page-header-spacing {
+    height: 60px !important;
+  }
+}
+.block-page-header.fixed.medium-tall .block-page-header-spacing {
+  height: 120px;
+}
+.block-page-header.fixed.tall .block-page-header-spacing {
+  height: 180px;
+}
+.block-page-header > nav > .container,
+.block-page-header .content-container {
+  height: 100%;
+}
+.block-page-header .content-container,
+.block-page-header .navbar-collapse {
+  position: relative;
+}
+.block-page-header .content-container {
+  margin: 0;
+  z-index: 101;
+}
+.block-page-header .navbar-toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  margin-right: 0;
+}
+.block-page-header .navbar-toggle .icon-bar {
+  background-color: #424242;
+}
+.block-page-header.medium-tall > nav {
+  height: 120px;
+}
+.block-page-header.tall > nav {
+  height: 180px;
+}
+.block-page-header .content-section {
+  height: 60px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.block-page-header .content-section > * {
+  float: left;
+}
+.block-page-header .content-section > * + * {
+  margin-left: 8px;
+}
+.block-page-header .content-section.middle {
+  top: 50%;
+  margin-top: -30px;
+}
+.block-page-header .content-section.bottom {
+  top: auto;
+  bottom: 0;
+}
+.block-page-header a:hover,
+.block-page-header a:active,
+.block-page-header a:focus {
+  text-decoration: none;
+}
+.block-page-header .brand {
+  display: block;
+  float: left;
+  overflow: hidden;
+  height: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  line-height: 44px;
+  font-size: 24px;
+}
+.block-page-header.medium-tall.brand-center .brand {
+  line-height: 104px;
+}
+.block-page-header.tall.brand-center .brand {
+  line-height: 164px;
+}
+.block-page-header .brand-image {
+  height: auto;
+  width: auto;
+  max-height: 44px;
+  vertical-align: middle;
+}
+.block-page-header.brand-fill .brand-image {
+  max-height: 100%;
+}
+.block-page-header.brand-medium .brand-image {
+  max-height: 104px;
+}
+.block-page-header .core-header-contact {
+  float: right;
+}
+.block-page-header .core-item {
+  float: left;
+  line-height: 60px;
+}
+.block-page-header ul {
+  list-style-type: none;
+}
+.block-page-header ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 0 4px;
+}
+.block-page-header ul li a {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+@media (max-width: 767px) {
+  .block-page-header > nav {
+    height: 60px !important;
+  }
+  .block-page-header .content-section {
+    position: static !important;
+    height: auto !important;
+    margin-top: 0 !important;
+  }
+  .block-page-header .navbar-collapse.in,
+  .block-page-header .navbar-collapse.collapsing {
+    background-color: #FAFAFA;
+  }
+  .block-page-header .block-menu,
+  .block-page-header .block-item {
+    width: 100%;
+  }
+}
+.block-page-header .social-icons {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.block-page-header .social-icons .social-button:last-child {
+  margin-right: 8px;
+}
+.block-page-header .social-icons .social-button:first-child {
+  margin-left: 8px;
+}
